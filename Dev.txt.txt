@@ -1,0 +1,21 @@
+class Employee 
+{
+	int impid;
+	String empname;
+	double empsal;
+	Employee(int a,String b,double c)
+	{
+		empid=a;
+		empname=b;
+		empsal=c;
+		return;
+	}
+	public static void main(String[] args)
+	{
+		Employee e1=new Employee(126,"sagar",3000.56);
+		System.out.println(e1.empid);
+		System.out.println(e1.name);
+		System.out.println(e1.empsal);
+
+	}
+}
